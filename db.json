@@ -1,0 +1,17 @@
+{
+  "posts": [
+    { "id": 1, "title": "json-server", "author": "typicode" }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 }
+  ],
+  "profile": { "name": "typicode" },
+  "requests": {
+		"data": [
+			{ "title": "Aaa", "description": "Bbb", "status": "Ccc" },
+			{ "title": "Aaa123", "description": "Bbb123", "status": "Ccc123" },
+			{ "title": "Aaa456", "description": "Bbb456", "status": "Ccc456" }
+		],
+		"errors": []
+  }
+}
