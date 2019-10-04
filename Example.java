@@ -12,6 +12,7 @@ class Example {
     static int sumEven(int from, int to) {
         return IntStream
                 .range(from, to)
-                .reduce(0, (s, e) -> s + (e % 2 == 0 ? e : 0));
+                .filter(e -> e % 2 == 0)
+                .reduce(0, Integer::sum);
     }
 }
